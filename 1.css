@@ -1,5 +1,116 @@
 *{margin: 0; padding: 0;}
 
+.khoittnho p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #888888;
+}
+
+.khoittnho {
+    margin-bottom: 55px;
+}
+
+span.motaqt {
+    display: block;
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+
+.khoittnho h3.tieudenho {
+    color: #e35855;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.tdnho {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: segoe ui;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.dam {
+    font-weight: bold;
+}
+
+.tieudeto {
+    margin-top: 120px;
+    margin-bottom:80px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    background: url("images/ke.png") no-repeat left bottom -27px;
+    background-size: contain;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 55px;
+}
+
+.col-sm-12.tieudeto.text-xs-center {
+    margin: 120px;
+}
+
+.cot2_3 img {
+    margin-left: -80px;
+    height: 1300px;
+    margin-top: -60px;
+}
+
+a.nuthire.btn.btn-primary {
+    border: none;
+    border-radius: 0;
+    width: 180px;
+    background: black;
+}
+
+.tt p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 25px;
+    width: 42%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.tt h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+}
+
+.tt img {
+	margin-bottom:35px;
+ 	border-radius:50%;
+}
+.tt {
+    position: relative;
+    padding-top: 23%;
+}
+
+.khoitt {
+    width: 100%;
+    height: 100%;
+    background: #e9585f;
+}
+
+.khoitt:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e4555b;
+    width: 50%;
+    height: 100%;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
 li.nav-item {
     margin: 0 17px;
 }
@@ -24,8 +135,20 @@ nav.navbar.navbar-light.bg-faded {
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background: white;
 } 
-@media (max-width: 576px){
+@media (max-width: 765px){
 	*{}
+
+.tt p {
+    width: 70%;
+}
+
+.tt img {
+    margin-top: 150px;
+    border-radius: 50%;
+    margin-bottom: 23px;
+    width: 200px;
+    height: 200px;
+}
 
 li.nav-item {
     margin: 0px 32px 0 0;
@@ -36,8 +159,14 @@ a.nav-link {
 }
 
 ul.nav.navbar-nav.float-xs-right {
-    float: none!important;
     text-align: center;
+    background: white;
+    border-top: 1px solid lightgray;
+    width: 110.2%;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    padding: 10px 5px;
 }
 
 li.nav-item {
