@@ -18,5 +18,9 @@
  		/* Act on the event */
  		$('body,html').animate({scrollTop:($(".menutop").offset().top)}, 700);
  	});
+ 		$(".cm").click(function(event) {
+ 		/* Act on the event */
+ 		$('body,html').animate({scrollTop:($(".khoicomment").offset().top)}, 700);
+ 	});
 })  
  
