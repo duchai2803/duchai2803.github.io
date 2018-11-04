@@ -12,7 +12,7 @@
  	 	 
  	$(".tt").click(function(event) {
  		/* Act on the event */
- 		$('body,html').animate({scrollTop:($(".footer2").offset().top)}, 700);
+ 		$('body,html').animate({scrollTop:($(".abc").offset().top)}, 700);
  	});
   	$(".gt").click(function(event) {
  		/* Act on the event */
