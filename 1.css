@@ -1,5 +1,64 @@
 *{margin: 0; padding: 0;}
 
+.products {
+    width: 100%;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.products ul li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    padding: 10px 5px;
+}
+
+.products img {
+    width: 100%;
+}
+
+.footer2 {
+    background: black;
+    color: white;
+}
+
+.footer2 p {
+    padding-left: 50px;
+}
+
+.chuot {
+    position: absolute;
+    width: 40px;
+    height: 66px;
+    border: 1px solid white;
+    border-radius: 30px;
+    left: 50%;
+    bottom: -18%;
+    margin-left: -20px;
+    z-index: 2;
+}
+
+.chuot:hover {
+    cursor: pointer;
+}
+
+.chuot:after {
+    content: "";
+    width: 4px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    border-radius: 15px;
+    margin-left: -2px;
+}
+
+.cot2_3 {
+    background: url("images/line.png") no-repeat top -200px center;
+    height: 750px;
+}
+
 .khoittnho p {
     font-size: 13px;
     line-height: 20px;
@@ -49,7 +108,7 @@ span.motaqt {
 }
 
 .col-sm-12.tieudeto.text-xs-center {
-    margin: 120px;
+    margin: 100px 0;
 }
 
 .cot2_3 img {
@@ -87,7 +146,7 @@ a.nuthire.btn.btn-primary {
 }
 .tt {
     position: relative;
-    padding-top: 23%;
+    padding-top: 12%;
 }
 
 .khoitt {
@@ -137,6 +196,12 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 } 
 @media (max-width: 765px){
 	*{}
+
+.cot2_3 {
+    height: 250px;
+    background-image: url("images/line2.png");
+    background-position-y: 50%;
+}
 
 .tt p {
     width: 70%;

@@ -10,22 +10,30 @@
 	<link rel="stylesheet" href="1.css">
 </head>
 <body >
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=2043495102359963&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 			<div class="container">
 				<a class="navbar-brand" href="#"><img src="images/logo.png" width="70"alt="logo duchai"></a>
 				<ul class="nav navbar-nav float-xs-right">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+						<a class="nav-link gt" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Kinh nghiệm</a>
+						<a class="nav-link kn" href="#">Kinh nghiệm</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Sản phẩm</a>
+						<a class="nav-link sp" href="#">Sản phẩm</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Thông tin liên hệ</a>
+						<a class="nav-link tt" href="#">Thông tin liên hệ</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Comment</a>
@@ -41,6 +49,7 @@
 				<h2>Lâm Đức Hải</h2>
 				<p>Sinh viên STU - Đại Học Năm 3 - Ngành Công Nghệ thông tin Sở thích đọc sách - coi phim - nghe nhạc</p>
 				<a href="" class="nuthire btn btn-primary">Hợp tác</a>
+				<div class="chuot"></div>
 			</div>
 		</div>
 	</div>
@@ -76,7 +85,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4 cot2_3">
-					<img src="images/line.png" alt="" align="center">
+
 				</div>
 				<div class="col-sm-4 cot1_3">
 					<h2 class="tdnho text-xs-center">Quá trình <span class="dam">làm việc</span></h2>
@@ -99,8 +108,55 @@
 				</div>
 			</div>
 		</div>
-	</body>
-	</html>
+		<div class="khoisp">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 tieudeto text-sm-center text-xs-center">
+						<h1>Sản phẩm</h1>
+					</div>
+					<div class="col-sm-12 products">
+						<ul>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+							<li><a href=""><img src="images/Nike1.jpg" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="footer2">
+				<!-- Begin page content -->
+				<div class="container">
+					<div class="mt-1">
+						<h1 style="text-transform: uppercase;color:#688ade;font-family: segoe ui;font-size: 40px;">Thông Tin Liên Hệ</h1>
+					</div>
+					<p >Địa chỉ : B2-207 Ehome 3 Bình Tân , An Lạc</p>
+					<p>SĐT : 01867136714 (Hải)</p>
+					<p>Email : duchai283@gmail.com</p>
+					<p>FaceBook : /lamduchai0123</p>
+				</div>
+			</div>
+			<div class="khoicomment">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-cs-center">
+								Phản Hồi
+							</h1>
+							<div class="commentfb">
+								<div class="fb-comments" data-href="https://duchai2803.github.io/" data-width="576" data-numposts="10"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+		</html>
 
 
 
